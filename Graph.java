@@ -29,4 +29,8 @@ public class Graph {
     	return adjacence[u];
     }
     
+    public int degre(int u) {
+    	return adjacence[u].length;
+    }
+    
 }
