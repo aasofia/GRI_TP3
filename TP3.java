@@ -6,7 +6,7 @@ public class TP3 {
 		//int estimNbAretes = Integer.parseInt(args[2]);
 		
 //		ReadFile r = new ReadFile(estimNbAretes, file);
-		ReadFile r = new ReadFile(12572, "C:\\Users\\aitah\\Desktop\\MIDS\\S2\\GRI\\Graphes_TP2\\as20000102-simple.txt");
+		ReadFile r = new ReadFile(2010000, "C:\\Users\\aitah\\Desktop\\MIDS\\S2\\GRI\\Graphes_TP2\\bigdeg.txt");
 		
 		Graph g = new Graph(r.nbSommets, r.nbAretes, r.sommets1, r.sommets2, r.compteur);
 		

@@ -1,12 +1,10 @@
 
 
 public class Sommet implements Comparable<Sommet>{
-	public Graph g;
 	public int sommet;
 	public int degre;
 	
-	public Sommet(Graph g, int sommet, int degre) {
-		this.g = g;
+	public Sommet(int sommet, int degre) {
 		this.sommet = sommet;
 		this.degre = degre;
 	}
